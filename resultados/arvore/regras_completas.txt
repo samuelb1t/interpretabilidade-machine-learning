@@ -1,0 +1,2371 @@
+|--- daily_short_form_hours <= 2.550000
+|   |--- swipes_per_minute <= 8.900000
+|   |   |--- daily_short_form_hours <= 2.050000
+|   |   |   |--- multitasking_score <= 3.750000
+|   |   |   |   |--- daily_short_form_hours <= 1.850000
+|   |   |   |   |   |--- bedtime_scroll_min <= 34.500000
+|   |   |   |   |   |   |--- total_screen_time_hours <= 6.550000
+|   |   |   |   |   |   |   |--- swipes_per_minute <= 7.550000
+|   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |--- swipes_per_minute >  7.550000
+|   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 7.850000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  7.850000
+|   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 1.450000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  1.450000
+|   |   |   |   |   |   |   |   |   |   |--- gender_Male <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- gender_Male >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |--- total_screen_time_hours >  6.550000
+|   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 8.250000
+|   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 7.300000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  7.300000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- avg_clip_duration_sec >  8.250000
+|   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |--- bedtime_scroll_min >  34.500000
+|   |   |   |   |   |   |--- avg_clip_duration_sec <= 8.350000
+|   |   |   |   |   |   |   |--- bedtime_scroll_min <= 35.500000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- bedtime_scroll_min >  35.500000
+|   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 8.250000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  8.250000
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 4.950000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  4.950000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |--- avg_clip_duration_sec >  8.350000
+|   |   |   |   |   |   |   |--- multitasking_score <= 2.550000
+|   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 9.850000
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 9.750000
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 1.850000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  1.850000
+|   |   |   |   |   |   |   |   |   |   |   |--- age <= 26.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- age >  26.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  9.750000
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.550000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.550000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  9.850000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |--- multitasking_score >  2.550000
+|   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.850000
+|   |   |   |   |   |   |   |   |   |--- primary_platform_YouTube Shorts <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 2.650000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  2.650000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- primary_platform_YouTube Shorts >  0.500000
+|   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 4.800000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  4.800000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.600000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.600000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.850000
+|   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 1.750000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  1.750000
+|   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 4.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  4.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 8.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  8.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |--- daily_short_form_hours >  1.850000
+|   |   |   |   |   |--- swipes_per_minute <= 7.450000
+|   |   |   |   |   |   |--- age <= 16.500000
+|   |   |   |   |   |   |   |--- multitasking_score <= 2.500000
+|   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |--- multitasking_score >  2.500000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- age >  16.500000
+|   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 9.850000
+|   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 1.950000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- daily_short_form_hours >  1.950000
+|   |   |   |   |   |   |   |   |   |--- age <= 24.500000
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 4.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  4.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 6.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  6.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- age >  24.500000
+|   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 6.750000
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 32.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  32.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  6.750000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |--- avg_clip_duration_sec >  9.850000
+|   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 7.500000
+|   |   |   |   |   |   |   |   |   |--- multitasking_score <= 2.450000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- multitasking_score >  2.450000
+|   |   |   |   |   |   |   |   |   |   |--- age <= 39.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 2.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  2.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- age >  39.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.900000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.900000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- scroll_sessions_day >  7.500000
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 28.000000
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 24.000000
+|   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 13.900000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  13.900000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 14.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  14.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  24.000000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  28.000000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |--- swipes_per_minute >  7.450000
+|   |   |   |   |   |   |--- multitasking_score <= 1.900000
+|   |   |   |   |   |   |   |--- age <= 22.500000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- age >  22.500000
+|   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |--- multitasking_score >  1.900000
+|   |   |   |   |   |   |   |--- primary_platform_Instagram Reels <= 0.500000
+|   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.700000
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 7.550000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  7.550000
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.350000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.350000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.700000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |--- primary_platform_Instagram Reels >  0.500000
+|   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 5.950000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- total_screen_time_hours >  5.950000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |--- multitasking_score >  3.750000
+|   |   |   |   |--- avg_clip_duration_sec <= 11.750000
+|   |   |   |   |   |--- total_sleep_hours <= 7.050000
+|   |   |   |   |   |   |--- age <= 19.500000
+|   |   |   |   |   |   |   |--- scroll_sessions_day <= 7.000000
+|   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |--- scroll_sessions_day >  7.000000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- age >  19.500000
+|   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |--- total_sleep_hours >  7.050000
+|   |   |   |   |   |   |--- multitasking_score <= 5.150000
+|   |   |   |   |   |   |   |--- bedtime_scroll_min <= 25.500000
+|   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 2.500000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- scroll_sessions_day >  2.500000
+|   |   |   |   |   |   |   |   |   |--- multitasking_score <= 4.500000
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 6.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.700000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Female <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Female >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.700000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  6.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- multitasking_score >  4.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |--- bedtime_scroll_min >  25.500000
+|   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 8.250000
+|   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 4.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  4.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  8.250000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |--- multitasking_score >  5.150000
+|   |   |   |   |   |   |   |--- bedtime_scroll_min <= 36.000000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- bedtime_scroll_min >  36.000000
+|   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |--- avg_clip_duration_sec >  11.750000
+|   |   |   |   |   |--- primary_platform_Snapchat Spotlight <= 0.500000
+|   |   |   |   |   |   |--- age <= 25.500000
+|   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |--- age >  25.500000
+|   |   |   |   |   |   |   |--- multitasking_score <= 4.650000
+|   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |--- multitasking_score >  4.650000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |--- primary_platform_Snapchat Spotlight >  0.500000
+|   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |--- daily_short_form_hours >  2.050000
+|   |   |   |--- avg_clip_duration_sec <= 10.350000
+|   |   |   |   |--- multitasking_score <= 2.750000
+|   |   |   |   |   |--- swipes_per_minute <= 6.650000
+|   |   |   |   |   |   |--- scroll_sessions_day <= 9.500000
+|   |   |   |   |   |   |   |--- age <= 53.500000
+|   |   |   |   |   |   |   |   |--- multitasking_score <= 1.450000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- multitasking_score >  1.450000
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 49.500000
+|   |   |   |   |   |   |   |   |   |   |--- gender_Female <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- gender_Female >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 2.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  2.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 39.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 5.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  5.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  39.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  49.500000
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 51.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  51.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- age >  53.500000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- scroll_sessions_day >  9.500000
+|   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |--- swipes_per_minute >  6.650000
+|   |   |   |   |   |   |--- multitasking_score <= 1.150000
+|   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.450000
+|   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |--- daily_short_form_hours >  2.450000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- multitasking_score >  1.150000
+|   |   |   |   |   |   |   |--- swipes_per_minute <= 7.650000
+|   |   |   |   |   |   |   |   |--- swipes_per_minute <= 7.300000
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 5.650000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  5.650000
+|   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.150000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  2.150000
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 32.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 25.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  25.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  32.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- swipes_per_minute >  7.300000
+|   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.450000
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 2.650000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  2.650000
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 51.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  51.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  2.450000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- swipes_per_minute >  7.650000
+|   |   |   |   |   |   |   |   |--- age <= 40.500000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- age >  40.500000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |--- multitasking_score >  2.750000
+|   |   |   |   |   |--- primary_platform_Instagram Reels <= 0.500000
+|   |   |   |   |   |   |--- total_screen_time_hours <= 6.550000
+|   |   |   |   |   |   |   |--- bedtime_scroll_min <= 38.000000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- bedtime_scroll_min >  38.000000
+|   |   |   |   |   |   |   |   |--- age <= 22.500000
+|   |   |   |   |   |   |   |   |   |--- multitasking_score <= 2.850000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- multitasking_score >  2.850000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- age >  22.500000
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 5.350000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  5.350000
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 45.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  45.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- gender_Non-Binary <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 47.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 7.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  7.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  47.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- gender_Non-Binary >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |--- total_screen_time_hours >  6.550000
+|   |   |   |   |   |   |   |--- multitasking_score <= 4.750000
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 31.500000
+|   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.150000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  2.150000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  31.500000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |--- multitasking_score >  4.750000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |--- primary_platform_Instagram Reels >  0.500000
+|   |   |   |   |   |   |--- scroll_sessions_day <= 11.000000
+|   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.250000
+|   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 5.550000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- total_screen_time_hours >  5.550000
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 39.500000
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 3.350000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  3.350000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  39.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- daily_short_form_hours >  2.250000
+|   |   |   |   |   |   |   |   |--- age <= 16.500000
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 52.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  52.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- age >  16.500000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- scroll_sessions_day >  11.000000
+|   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |--- avg_clip_duration_sec >  10.350000
+|   |   |   |   |--- multitasking_score <= 4.450000
+|   |   |   |   |   |--- total_sleep_hours <= 7.150000
+|   |   |   |   |   |   |--- bedtime_scroll_min <= 66.500000
+|   |   |   |   |   |   |   |--- scroll_sessions_day <= 2.500000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- scroll_sessions_day >  2.500000
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 14.000000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  14.000000
+|   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 5.550000
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 2.450000
+|   |   |   |   |   |   |   |   |   |   |   |--- age <= 19.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- age >  19.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 56.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 5.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  5.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.350000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  2.350000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  56.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 17.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Female <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Female >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  17.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  2.450000
+|   |   |   |   |   |   |   |   |   |   |   |--- age <= 48.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 44.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 43.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 12.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.350000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  2.350000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  12.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 18.099999
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  18.099999
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 21.400000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  21.400000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 4.100000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  4.100000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  43.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  44.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 2.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Male <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Male >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  2.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 30.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age >  30.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 31.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age >  31.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- age >  48.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  5.550000
+|   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.250000
+|   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 9.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  9.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  2.250000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |--- bedtime_scroll_min >  66.500000
+|   |   |   |   |   |   |   |--- multitasking_score <= 2.450000
+|   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |--- multitasking_score >  2.450000
+|   |   |   |   |   |   |   |   |--- multitasking_score <= 3.350000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- multitasking_score >  3.350000
+|   |   |   |   |   |   |   |   |   |--- age <= 30.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- age >  30.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |--- total_sleep_hours >  7.150000
+|   |   |   |   |   |   |--- bedtime_scroll_min <= 30.500000
+|   |   |   |   |   |   |   |--- multitasking_score <= 4.250000
+|   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 12.050000
+|   |   |   |   |   |   |   |   |   |--- multitasking_score <= 3.250000
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 11.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  11.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- multitasking_score >  3.250000
+|   |   |   |   |   |   |   |   |   |   |--- gender_Female <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- gender_Female >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  12.050000
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 28.500000
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 4.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  2.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  4.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  28.500000
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 9.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- age <= 20.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 13.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  13.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- age >  20.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  9.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- multitasking_score >  4.250000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- bedtime_scroll_min >  30.500000
+|   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.350000
+|   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 4.750000
+|   |   |   |   |   |   |   |   |   |--- multitasking_score <= 2.550000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- multitasking_score >  2.550000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- total_screen_time_hours >  4.750000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |--- daily_short_form_hours >  2.350000
+|   |   |   |   |   |   |   |   |--- age <= 26.000000
+|   |   |   |   |   |   |   |   |   |--- primary_platform_TikTok <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 2.650000
+|   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 2.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  2.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 5.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  5.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 1.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  1.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  2.650000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- primary_platform_TikTok >  0.500000
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 2.750000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  2.750000
+|   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 5.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  5.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- age >  26.000000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |--- multitasking_score >  4.450000
+|   |   |   |   |   |--- primary_platform_TikTok <= 0.500000
+|   |   |   |   |   |   |--- scroll_sessions_day <= 10.500000
+|   |   |   |   |   |   |   |--- multitasking_score <= 5.050000
+|   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |--- multitasking_score >  5.050000
+|   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.850000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.850000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |--- scroll_sessions_day >  10.500000
+|   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |--- primary_platform_TikTok >  0.500000
+|   |   |   |   |   |   |--- total_sleep_hours <= 7.250000
+|   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |--- total_sleep_hours >  7.250000
+|   |   |   |   |   |   |   |--- bedtime_scroll_min <= 53.500000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- bedtime_scroll_min >  53.500000
+|   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |--- swipes_per_minute >  8.900000
+|   |   |--- daily_short_form_hours <= 1.450000
+|   |   |   |--- swipes_per_minute <= 14.150000
+|   |   |   |   |--- multitasking_score <= 2.650000
+|   |   |   |   |   |--- age <= 20.500000
+|   |   |   |   |   |   |--- total_sleep_hours <= 7.100000
+|   |   |   |   |   |   |   |--- daily_short_form_hours <= 0.650000
+|   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |--- daily_short_form_hours >  0.650000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- total_sleep_hours >  7.100000
+|   |   |   |   |   |   |   |--- primary_platform_Instagram Reels <= 0.500000
+|   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |--- primary_platform_Instagram Reels >  0.500000
+|   |   |   |   |   |   |   |   |--- age <= 18.500000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- age >  18.500000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |--- age >  20.500000
+|   |   |   |   |   |   |--- total_screen_time_hours <= 5.950000
+|   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |--- total_screen_time_hours >  5.950000
+|   |   |   |   |   |   |   |--- primary_platform_Instagram Reels <= 0.500000
+|   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |--- primary_platform_Instagram Reels >  0.500000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |--- multitasking_score >  2.650000
+|   |   |   |   |   |--- swipes_per_minute <= 11.000000
+|   |   |   |   |   |   |--- multitasking_score <= 2.750000
+|   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- multitasking_score >  2.750000
+|   |   |   |   |   |   |   |--- primary_platform_YouTube Shorts <= 0.500000
+|   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |--- primary_platform_YouTube Shorts >  0.500000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |--- swipes_per_minute >  11.000000
+|   |   |   |   |   |   |--- scroll_sessions_day <= 2.000000
+|   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |--- scroll_sessions_day >  2.000000
+|   |   |   |   |   |   |   |--- multitasking_score <= 3.800000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- multitasking_score >  3.800000
+|   |   |   |   |   |   |   |   |--- gender_Female <= 0.500000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- gender_Female >  0.500000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |--- swipes_per_minute >  14.150000
+|   |   |   |   |--- daily_short_form_hours <= 0.950000
+|   |   |   |   |   |--- total_screen_time_hours <= 5.150000
+|   |   |   |   |   |   |--- age <= 18.500000
+|   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- age >  18.500000
+|   |   |   |   |   |   |   |--- total_sleep_hours <= 9.100000
+|   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 4.500000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- scroll_sessions_day >  4.500000
+|   |   |   |   |   |   |   |   |   |--- gender_Male <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- gender_Male >  0.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- total_sleep_hours >  9.100000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |--- total_screen_time_hours >  5.150000
+|   |   |   |   |   |   |--- age <= 46.000000
+|   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- age >  46.000000
+|   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |--- daily_short_form_hours >  0.950000
+|   |   |   |   |   |--- total_screen_time_hours <= 3.600000
+|   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |--- total_screen_time_hours >  3.600000
+|   |   |   |   |   |   |--- scroll_sessions_day <= 8.000000
+|   |   |   |   |   |   |   |--- primary_platform_YouTube Shorts <= 0.500000
+|   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 5.850000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- total_screen_time_hours >  5.850000
+|   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 16.250000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  16.250000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- primary_platform_YouTube Shorts >  0.500000
+|   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 4.500000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- scroll_sessions_day >  4.500000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |--- scroll_sessions_day >  8.000000
+|   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |--- daily_short_form_hours >  1.450000
+|   |   |   |--- avg_clip_duration_sec <= 5.750000
+|   |   |   |   |--- avg_clip_duration_sec <= 3.550000
+|   |   |   |   |   |--- daily_short_form_hours <= 2.150000
+|   |   |   |   |   |   |--- daily_short_form_hours <= 1.950000
+|   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- daily_short_form_hours >  1.950000
+|   |   |   |   |   |   |   |--- scroll_sessions_day <= 4.500000
+|   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |--- scroll_sessions_day >  4.500000
+|   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 7.500000
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 8.700000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  8.700000
+|   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |--- scroll_sessions_day >  7.500000
+|   |   |   |   |   |   |   |   |   |--- age <= 17.000000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- age >  17.000000
+|   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |--- daily_short_form_hours >  2.150000
+|   |   |   |   |   |   |--- age <= 41.000000
+|   |   |   |   |   |   |   |--- swipes_per_minute <= 17.900001
+|   |   |   |   |   |   |   |   |--- gender_Female <= 0.500000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- gender_Female >  0.500000
+|   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |--- swipes_per_minute >  17.900001
+|   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |--- age >  41.000000
+|   |   |   |   |   |   |   |--- bedtime_scroll_min <= 43.500000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- bedtime_scroll_min >  43.500000
+|   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |--- avg_clip_duration_sec >  3.550000
+|   |   |   |   |   |--- total_screen_time_hours <= 4.250000
+|   |   |   |   |   |   |--- gender_Female <= 0.500000
+|   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |--- gender_Female >  0.500000
+|   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |--- total_screen_time_hours >  4.250000
+|   |   |   |   |   |   |--- total_sleep_hours <= 8.250000
+|   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 3.950000
+|   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.450000
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.250000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.250000
+|   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.350000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.350000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- daily_short_form_hours >  2.450000
+|   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |--- avg_clip_duration_sec >  3.950000
+|   |   |   |   |   |   |   |   |--- age <= 40.500000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- age >  40.500000
+|   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 3.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  3.500000
+|   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 4.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  4.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- total_sleep_hours >  8.250000
+|   |   |   |   |   |   |   |--- daily_short_form_hours <= 1.550000
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 39.000000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  39.000000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- daily_short_form_hours >  1.550000
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 36.000000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  36.000000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |--- avg_clip_duration_sec >  5.750000
+|   |   |   |   |--- daily_short_form_hours <= 1.950000
+|   |   |   |   |   |--- age <= 26.500000
+|   |   |   |   |   |   |--- age <= 22.500000
+|   |   |   |   |   |   |   |--- bedtime_scroll_min <= 28.500000
+|   |   |   |   |   |   |   |   |--- multitasking_score <= 1.400000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- multitasking_score >  1.400000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- bedtime_scroll_min >  28.500000
+|   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |--- age >  22.500000
+|   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |--- age >  26.500000
+|   |   |   |   |   |   |--- bedtime_scroll_min <= 31.000000
+|   |   |   |   |   |   |   |--- bedtime_scroll_min <= 27.500000
+|   |   |   |   |   |   |   |   |--- multitasking_score <= 1.750000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- multitasking_score >  1.750000
+|   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 9.750000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  9.750000
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.400000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.400000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- bedtime_scroll_min >  27.500000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- bedtime_scroll_min >  31.000000
+|   |   |   |   |   |   |   |--- age <= 27.500000
+|   |   |   |   |   |   |   |   |--- primary_platform_Instagram Reels <= 0.500000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- primary_platform_Instagram Reels >  0.500000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- age >  27.500000
+|   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |--- daily_short_form_hours >  1.950000
+|   |   |   |   |   |--- multitasking_score <= 1.050000
+|   |   |   |   |   |   |--- daily_short_form_hours <= 2.150000
+|   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |--- daily_short_form_hours >  2.150000
+|   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |--- multitasking_score >  1.050000
+|   |   |   |   |   |   |--- age <= 48.500000
+|   |   |   |   |   |   |   |--- gender_Non-Binary <= 0.500000
+|   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 2.000000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- scroll_sessions_day >  2.000000
+|   |   |   |   |   |   |   |   |   |--- age <= 17.000000
+|   |   |   |   |   |   |   |   |   |   |--- gender_Female <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- gender_Female >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- age >  17.000000
+|   |   |   |   |   |   |   |   |   |   |--- gender_Male <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- gender_Male >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Instagram Reels <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 47.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  47.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 48.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  48.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Instagram Reels >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 6.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  6.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- gender_Non-Binary >  0.500000
+|   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |--- age >  48.500000
+|   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|--- daily_short_form_hours >  2.550000
+|   |--- daily_short_form_hours <= 5.850000
+|   |   |--- swipes_per_minute <= 10.600000
+|   |   |   |--- daily_short_form_hours <= 3.350000
+|   |   |   |   |--- swipes_per_minute <= 5.250000
+|   |   |   |   |   |--- multitasking_score <= 3.350000
+|   |   |   |   |   |   |--- avg_clip_duration_sec <= 14.750000
+|   |   |   |   |   |   |   |--- total_sleep_hours <= 7.250000
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 70.500000
+|   |   |   |   |   |   |   |   |   |--- gender_Male <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 13.650000
+|   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 1.650000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  1.650000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 11.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  11.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 9.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  9.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  2.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 49.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 1.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  1.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  49.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  13.650000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 50.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 46.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  46.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  50.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- gender_Male >  0.500000
+|   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 7.300000
+|   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 3.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 47.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 63.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 6.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 11.650000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  11.650000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 39.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age >  39.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  6.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  63.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 8.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  8.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 23.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age >  23.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- age >  47.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  3.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 3.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  3.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  7.300000
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 52.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 13.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  13.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  52.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  70.500000
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.750000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.750000
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 12.150000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  12.150000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- total_sleep_hours >  7.250000
+|   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.850000
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 24.000000
+|   |   |   |   |   |   |   |   |   |   |--- age <= 26.000000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- age >  26.000000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  24.000000
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 55.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  55.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- age <= 30.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- age >  30.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 5.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  5.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- daily_short_form_hours >  2.850000
+|   |   |   |   |   |   |   |   |   |--- multitasking_score <= 2.750000
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 11.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- gender_Female <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 32.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  32.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- gender_Female >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 24.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- age >  24.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 1.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 3.100000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  3.100000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  1.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 5.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  5.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  11.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- multitasking_score >  2.750000
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.550000
+|   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 4.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  4.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.550000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- avg_clip_duration_sec >  14.750000
+|   |   |   |   |   |   |   |--- bedtime_scroll_min <= 79.500000
+|   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 11.500000
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.650000
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 2.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 21.400001
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 63.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 48.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  48.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_YouTube Shorts <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 1.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  1.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 10.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  10.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_YouTube Shorts >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  63.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 14.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 35.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age >  35.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  14.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 19.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 3.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  3.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- age >  19.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 3.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  3.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 8.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 7.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  7.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  8.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  21.400001
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 54.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 2.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  2.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  54.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  2.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.600000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 5.650000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  5.650000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.600000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 15.750000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  15.750000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  2.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 34.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- age >  34.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.650000
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 67.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  67.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  2.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- scroll_sessions_day >  11.500000
+|   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 3.050000
+|   |   |   |   |   |   |   |   |   |   |--- age <= 24.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- age >  24.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  3.050000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- bedtime_scroll_min >  79.500000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |--- multitasking_score >  3.350000
+|   |   |   |   |   |   |--- daily_short_form_hours <= 3.050000
+|   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.750000
+|   |   |   |   |   |   |   |   |--- total_sleep_hours <= 8.500000
+|   |   |   |   |   |   |   |   |   |--- age <= 24.500000
+|   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 2.800000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  2.800000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 5.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  5.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 5.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  5.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 3.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  3.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 4.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  4.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.100000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.100000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 4.650000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  4.650000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- age >  24.500000
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 8.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 5.350000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  5.350000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  8.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- total_sleep_hours >  8.500000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- daily_short_form_hours >  2.750000
+|   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.450000
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 69.500000
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 4.850000
+|   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 4.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 27.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 35.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  35.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 60.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  60.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- age >  27.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 7.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  7.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 13.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  13.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  4.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  2.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  4.850000
+|   |   |   |   |   |   |   |   |   |   |   |--- gender_Non-Binary <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- gender_Non-Binary >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  69.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.450000
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 12.000000
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 4.600000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  4.600000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  12.000000
+|   |   |   |   |   |   |   |   |   |   |--- age <= 37.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 44.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  44.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 3.650000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  3.650000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 47.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  2.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  47.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Male <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Male >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 9.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  9.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- age >  37.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- daily_short_form_hours >  3.050000
+|   |   |   |   |   |   |   |--- multitasking_score <= 4.550000
+|   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.950000
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 13.550000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  13.550000
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 8.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  8.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.750000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 69.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  69.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 23.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- age >  23.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.750000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.950000
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.250000
+|   |   |   |   |   |   |   |   |   |   |--- age <= 35.000000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- age >  35.000000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.250000
+|   |   |   |   |   |   |   |   |   |   |--- age <= 22.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 12.650000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  12.650000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 38.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  38.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- age >  22.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 3.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.350000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.350000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  3.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 17.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 8.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Instagram Reels <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Instagram Reels >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 4.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  4.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  8.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  17.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |--- multitasking_score >  4.550000
+|   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight <= 0.500000
+|   |   |   |   |   |   |   |   |   |--- age <= 17.500000
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 15.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  15.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 5.600000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  5.600000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- age >  17.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight >  0.500000
+|   |   |   |   |   |   |   |   |   |--- gender_Male <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- gender_Male >  0.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |--- swipes_per_minute >  5.250000
+|   |   |   |   |   |--- multitasking_score <= 2.550000
+|   |   |   |   |   |   |--- swipes_per_minute <= 6.350000
+|   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 10.650000
+|   |   |   |   |   |   |   |   |--- age <= 47.500000
+|   |   |   |   |   |   |   |   |   |--- multitasking_score <= 1.050000
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 51.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  51.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- multitasking_score >  1.050000
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 8.050000
+|   |   |   |   |   |   |   |   |   |   |   |--- age <= 32.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 5.750000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  5.750000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 6.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  6.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- age >  32.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  8.050000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.100000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.100000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- age >  47.500000
+|   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 3.050000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  3.050000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- avg_clip_duration_sec >  10.650000
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 53.500000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  53.500000
+|   |   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.550000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.550000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight >  0.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- swipes_per_minute >  6.350000
+|   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.750000
+|   |   |   |   |   |   |   |   |--- age <= 25.500000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- age >  25.500000
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 36.000000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  36.000000
+|   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 61.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 37.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  37.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 48.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- age >  48.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 7.750000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  7.750000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  61.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |--- daily_short_form_hours >  2.750000
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 72.500000
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.450000
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.350000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.350000
+|   |   |   |   |   |   |   |   |   |   |   |--- age <= 45.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- age >  45.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.450000
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 8.650000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  8.650000
+|   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 6.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  6.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  72.500000
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.400000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.400000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |--- multitasking_score >  2.550000
+|   |   |   |   |   |   |--- total_sleep_hours <= 9.300000
+|   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 10.350000
+|   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 3.150000
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 54.500000
+|   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 7.700000
+|   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 7.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  7.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 3.650000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 3.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 7.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 2.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 22.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Male <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Male >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age >  22.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  2.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 51.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  51.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  7.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  3.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  3.650000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  7.700000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  54.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- daily_short_form_hours >  3.150000
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 7.250000
+|   |   |   |   |   |   |   |   |   |   |--- age <= 22.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 7.100000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  7.100000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- age >  22.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  7.250000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- avg_clip_duration_sec >  10.350000
+|   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 12.000000
+|   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 5.500000
+|   |   |   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  5.500000
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 53.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 5.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  5.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.600000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.600000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  53.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 7.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 3.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.900000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 5.350000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  5.350000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.900000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  3.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  7.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- scroll_sessions_day >  12.000000
+|   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |--- total_sleep_hours >  9.300000
+|   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |--- daily_short_form_hours >  3.350000
+|   |   |   |   |--- avg_clip_duration_sec <= 8.550000
+|   |   |   |   |   |--- daily_short_form_hours <= 3.950000
+|   |   |   |   |   |   |--- avg_clip_duration_sec <= 6.300000
+|   |   |   |   |   |   |   |--- multitasking_score <= 3.550000
+|   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 8.300000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- total_screen_time_hours >  8.300000
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 5.850000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  5.850000
+|   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |--- multitasking_score >  3.550000
+|   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 8.500000
+|   |   |   |   |   |   |   |   |   |--- gender_Male <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- gender_Male >  0.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |--- scroll_sessions_day >  8.500000
+|   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |--- avg_clip_duration_sec >  6.300000
+|   |   |   |   |   |   |   |--- multitasking_score <= 5.650000
+|   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.150000
+|   |   |   |   |   |   |   |   |   |--- primary_platform_TikTok <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- primary_platform_TikTok >  0.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.150000
+|   |   |   |   |   |   |   |   |   |--- multitasking_score <= 4.350000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- multitasking_score >  4.350000
+|   |   |   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 4.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  4.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |--- multitasking_score >  5.650000
+|   |   |   |   |   |   |   |   |--- swipes_per_minute <= 7.550000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- swipes_per_minute >  7.550000
+|   |   |   |   |   |   |   |   |   |--- multitasking_score <= 5.800000
+|   |   |   |   |   |   |   |   |   |   |--- gender_Female <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- gender_Female >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |--- multitasking_score >  5.800000
+|   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |--- daily_short_form_hours >  3.950000
+|   |   |   |   |   |   |--- daily_short_form_hours <= 4.950000
+|   |   |   |   |   |   |   |--- swipes_per_minute <= 8.650000
+|   |   |   |   |   |   |   |   |--- multitasking_score <= 4.850000
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 7.850000
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.200000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.200000
+|   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Instagram Reels <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 16.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 7.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 4.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  4.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  7.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  16.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 7.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  7.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Instagram Reels >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 7.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  7.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  7.850000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- multitasking_score >  4.850000
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.350000
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 9.000000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  9.000000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 7.300000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Male <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Male >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  7.300000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 5.400000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  5.400000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 106.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  106.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 5.900000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  5.900000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.400000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.400000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.350000
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 12.000000
+|   |   |   |   |   |   |   |   |   |   |   |--- age <= 23.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- age >  23.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  12.000000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- swipes_per_minute >  8.650000
+|   |   |   |   |   |   |   |   |--- multitasking_score <= 1.900000
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 62.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  62.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- multitasking_score >  1.900000
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 5.350000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  5.350000
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 3.850000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 7.900000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  7.900000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Instagram Reels <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Instagram Reels >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 8.200000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  8.200000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  3.850000
+|   |   |   |   |   |   |   |   |   |   |   |--- age <= 30.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 87.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  87.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 89.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  89.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- age >  30.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 8.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  8.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |--- daily_short_form_hours >  4.950000
+|   |   |   |   |   |   |   |--- bedtime_scroll_min <= 88.500000
+|   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.100000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.100000
+|   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 5.450000
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 72.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  72.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  5.450000
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.100000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.100000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- bedtime_scroll_min >  88.500000
+|   |   |   |   |   |   |   |   |--- multitasking_score <= 2.550000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- multitasking_score >  2.550000
+|   |   |   |   |   |   |   |   |   |--- age <= 50.000000
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 3.450000
+|   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 3.300000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  3.300000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  3.450000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |--- age >  50.000000
+|   |   |   |   |   |   |   |   |   |   |--- age <= 52.000000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- age >  52.000000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |--- avg_clip_duration_sec >  8.550000
+|   |   |   |   |   |--- avg_clip_duration_sec <= 10.250000
+|   |   |   |   |   |   |--- multitasking_score <= 6.350000
+|   |   |   |   |   |   |   |--- daily_short_form_hours <= 4.450000
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 35.000000
+|   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 6.350000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  6.350000
+|   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  35.000000
+|   |   |   |   |   |   |   |   |   |--- multitasking_score <= 5.550000
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 86.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  86.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 3.900000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 3.700000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  3.700000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 9.750000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  9.750000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  3.900000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- multitasking_score >  5.550000
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 64.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 52.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  52.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  64.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- daily_short_form_hours >  4.450000
+|   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 5.450000
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 9.050000
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 5.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 94.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 5.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  5.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  94.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 8.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Male <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 16.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  16.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Male >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  8.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  5.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  9.050000
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.650000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 8.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  8.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 17.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |--- age >  17.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 8.700000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 26.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age >  26.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  8.700000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Instagram Reels <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Instagram Reels >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 5.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  5.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.300000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.300000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 9.400000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  9.400000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 20.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age >  20.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.650000
+|   |   |   |   |   |   |   |   |   |   |   |--- age <= 26.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- age >  26.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |--- daily_short_form_hours >  5.450000
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 94.000000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  94.000000
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 8.850000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  8.850000
+|   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 14.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Instagram Reels <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Instagram Reels >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  14.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |--- multitasking_score >  6.350000
+|   |   |   |   |   |   |   |--- daily_short_form_hours <= 4.550000
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 85.500000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  85.500000
+|   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |--- daily_short_form_hours >  4.550000
+|   |   |   |   |   |   |   |   |--- total_sleep_hours <= 5.550000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- total_sleep_hours >  5.550000
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 8.400000
+|   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 7.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  7.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  8.400000
+|   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |--- avg_clip_duration_sec >  10.250000
+|   |   |   |   |   |   |--- daily_short_form_hours <= 3.850000
+|   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 14.850000
+|   |   |   |   |   |   |   |   |--- multitasking_score <= 3.250000
+|   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 6.500000
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 13.550000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  13.550000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  6.500000
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 8.900000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.650000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.650000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 5.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 1.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  1.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 47.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 25.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 20.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age >  20.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Instagram Reels <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.350000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.350000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Instagram Reels >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age >  25.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 8.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  8.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.100000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.100000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age >  47.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 3.700000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 9.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  9.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  3.700000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  5.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  8.900000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- multitasking_score >  3.250000
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.450000
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 4.100000
+|   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_TikTok <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_TikTok >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  4.100000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.450000
+|   |   |   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 3.600000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  3.600000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- avg_clip_duration_sec >  14.850000
+|   |   |   |   |   |   |   |   |--- multitasking_score <= 3.350000
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 76.500000
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 5.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  5.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.750000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 17.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- age >  17.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 50.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 3.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  3.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 3.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  3.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- age >  50.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.750000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 50.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 40.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 57.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  57.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 3.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.900000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 3.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  3.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 16.200000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  16.200000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.900000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  3.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 3.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  3.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- age >  40.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- age >  50.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  76.500000
+|   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 2.700000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  2.700000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- multitasking_score >  3.350000
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 17.050000
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 6.350000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.600000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.600000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 73.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  73.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  6.350000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  17.050000
+|   |   |   |   |   |   |   |   |   |   |--- age <= 39.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.100000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 3.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 84.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  84.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 90.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  90.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  3.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.100000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Male <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 3.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  3.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 6.300000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 3.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  3.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  6.300000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Male >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 4.700000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  4.700000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- age >  39.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |--- daily_short_form_hours >  3.850000
+|   |   |   |   |   |   |   |--- daily_short_form_hours <= 5.650000
+|   |   |   |   |   |   |   |   |--- multitasking_score <= 6.750000
+|   |   |   |   |   |   |   |   |   |--- multitasking_score <= 1.550000
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 63.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 14.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  14.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  63.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 5.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  5.800000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- multitasking_score >  1.550000
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 10.350000
+|   |   |   |   |   |   |   |   |   |   |   |--- age <= 18.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- age >  18.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  10.350000
+|   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 22.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 11.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 9.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 6.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 5.600000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  5.600000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  6.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  9.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 11.200000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  11.200000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 14.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  14.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 29.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age >  29.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  11.550000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 10.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 4.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 109.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 9.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 13.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  13.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 79.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  79.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  9.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 20.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  20.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  109.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  4.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  10.150000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Snapchat Spotlight >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 4.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Male <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Male >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 4.200000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  4.200000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  4.050000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  22.250000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 74.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 27.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- age >  27.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  74.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Normal / Intact Focus
+|   |   |   |   |   |   |   |   |--- multitasking_score >  6.750000
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 14.450000
+|   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 5.350000
+|   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 4.350000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  4.350000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 102.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  102.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Female <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Female >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  5.350000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  14.450000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- daily_short_form_hours >  5.650000
+|   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 13.250000
+|   |   |   |   |   |   |   |   |   |--- multitasking_score <= 5.500000
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 5.250000
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 109.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  109.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  5.250000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- multitasking_score >  5.500000
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 91.000000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  91.000000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 6.700000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  6.700000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 7.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  7.450000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  13.250000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |--- swipes_per_minute >  10.600000
+|   |   |   |--- avg_clip_duration_sec <= 4.450000
+|   |   |   |   |--- bedtime_scroll_min <= 30.000000
+|   |   |   |   |   |--- total_sleep_hours <= 7.350000
+|   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |--- total_sleep_hours >  7.350000
+|   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |--- bedtime_scroll_min >  30.000000
+|   |   |   |   |   |--- bedtime_scroll_min <= 40.000000
+|   |   |   |   |   |   |--- age <= 41.500000
+|   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |--- age >  41.500000
+|   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |--- bedtime_scroll_min >  40.000000
+|   |   |   |   |   |   |--- daily_short_form_hours <= 2.750000
+|   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 3.800000
+|   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |--- avg_clip_duration_sec >  3.800000
+|   |   |   |   |   |   |   |   |--- gender_Female <= 0.500000
+|   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |--- gender_Female >  0.500000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- daily_short_form_hours >  2.750000
+|   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |--- avg_clip_duration_sec >  4.450000
+|   |   |   |   |--- daily_short_form_hours <= 3.450000
+|   |   |   |   |   |--- daily_short_form_hours <= 2.950000
+|   |   |   |   |   |   |--- multitasking_score <= 5.100000
+|   |   |   |   |   |   |   |--- total_screen_time_hours <= 7.450000
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 33.500000
+|   |   |   |   |   |   |   |   |   |--- multitasking_score <= 3.800000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- multitasking_score >  3.800000
+|   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  33.500000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- total_screen_time_hours >  7.450000
+|   |   |   |   |   |   |   |   |--- swipes_per_minute <= 12.750000
+|   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |--- swipes_per_minute >  12.750000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- multitasking_score >  5.100000
+|   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |--- daily_short_form_hours >  2.950000
+|   |   |   |   |   |   |--- age <= 37.500000
+|   |   |   |   |   |   |   |--- scroll_sessions_day <= 7.500000
+|   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |--- scroll_sessions_day >  7.500000
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 63.500000
+|   |   |   |   |   |   |   |   |   |--- swipes_per_minute <= 11.400000
+|   |   |   |   |   |   |   |   |   |   |--- gender_Female <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 58.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  58.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- gender_Female >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- swipes_per_minute >  11.400000
+|   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  63.500000
+|   |   |   |   |   |   |   |   |   |--- age <= 30.000000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- age >  30.000000
+|   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |--- age >  37.500000
+|   |   |   |   |   |   |   |--- multitasking_score <= 2.650000
+|   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- multitasking_score >  2.650000
+|   |   |   |   |   |   |   |   |--- gender_Female <= 0.500000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- gender_Female >  0.500000
+|   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |--- daily_short_form_hours >  3.450000
+|   |   |   |   |   |--- scroll_sessions_day <= 7.500000
+|   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |--- scroll_sessions_day >  7.500000
+|   |   |   |   |   |   |--- daily_short_form_hours <= 3.750000
+|   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 5.150000
+|   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |--- avg_clip_duration_sec >  5.150000
+|   |   |   |   |   |   |   |   |--- gender_Male <= 0.500000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- gender_Male >  0.500000
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 7.300000
+|   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  7.300000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- daily_short_form_hours >  3.750000
+|   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |--- daily_short_form_hours >  5.850000
+|   |   |--- avg_clip_duration_sec <= 4.950000
+|   |   |   |--- daily_short_form_hours <= 6.850000
+|   |   |   |   |--- swipes_per_minute <= 18.250000
+|   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |--- swipes_per_minute >  18.250000
+|   |   |   |   |   |--- daily_short_form_hours <= 6.300000
+|   |   |   |   |   |   |--- total_sleep_hours <= 6.850000
+|   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |--- total_sleep_hours >  6.850000
+|   |   |   |   |   |   |   |--- class: Acute Brain Rot / Executive Burnout
+|   |   |   |   |   |--- daily_short_form_hours >  6.300000
+|   |   |   |   |   |   |--- class: Acute Brain Rot / Executive Burnout
+|   |   |   |--- daily_short_form_hours >  6.850000
+|   |   |   |   |--- multitasking_score <= 5.400000
+|   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |--- multitasking_score >  5.400000
+|   |   |   |   |   |--- total_screen_time_hours <= 10.350000
+|   |   |   |   |   |   |--- multitasking_score <= 6.600000
+|   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |--- multitasking_score >  6.600000
+|   |   |   |   |   |   |   |--- class: Acute Brain Rot / Executive Burnout
+|   |   |   |   |   |--- total_screen_time_hours >  10.350000
+|   |   |   |   |   |   |--- class: Acute Brain Rot / Executive Burnout
+|   |   |--- avg_clip_duration_sec >  4.950000
+|   |   |   |--- daily_short_form_hours <= 6.650000
+|   |   |   |   |--- swipes_per_minute <= 5.450000
+|   |   |   |   |   |--- avg_clip_duration_sec <= 13.750000
+|   |   |   |   |   |   |--- multitasking_score <= 5.800000
+|   |   |   |   |   |   |   |--- total_sleep_hours <= 4.850000
+|   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |--- total_sleep_hours >  4.850000
+|   |   |   |   |   |   |   |   |--- age <= 29.500000
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 102.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  102.500000
+|   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 10.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- age <= 22.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Female <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |--- gender_Female >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |--- age >  22.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  10.950000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- age >  29.500000
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 87.000000
+|   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  87.000000
+|   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 6.250000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  6.250000
+|   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 11.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  11.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |--- multitasking_score >  5.800000
+|   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 12.200000
+|   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |--- avg_clip_duration_sec >  12.200000
+|   |   |   |   |   |   |   |   |--- age <= 21.500000
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 4.800000
+|   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  4.800000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- age >  21.500000
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 10.800000
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 5.550000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  5.550000
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 140.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  140.000000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  10.800000
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 6.250000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  6.250000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |--- avg_clip_duration_sec >  13.750000
+|   |   |   |   |   |   |--- scroll_sessions_day <= 14.500000
+|   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |--- scroll_sessions_day >  14.500000
+|   |   |   |   |   |   |   |--- daily_short_form_hours <= 6.550000
+|   |   |   |   |   |   |   |   |--- age <= 45.500000
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 10.850000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  10.850000
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 17.700001
+|   |   |   |   |   |   |   |   |   |   |   |--- gender_Female <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- gender_Female >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  17.700001
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- age >  45.500000
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.600000
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 14.600000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  14.600000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.600000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- daily_short_form_hours >  6.550000
+|   |   |   |   |   |   |   |   |--- age <= 21.000000
+|   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |--- age >  21.000000
+|   |   |   |   |   |   |   |   |   |--- multitasking_score <= 7.650000
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 6.700000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  6.700000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |--- multitasking_score >  7.650000
+|   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |--- swipes_per_minute >  5.450000
+|   |   |   |   |   |--- multitasking_score <= 4.750000
+|   |   |   |   |   |   |--- swipes_per_minute <= 6.350000
+|   |   |   |   |   |   |   |--- daily_short_form_hours <= 6.400000
+|   |   |   |   |   |   |   |   |--- swipes_per_minute <= 5.650000
+|   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |--- swipes_per_minute >  5.650000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |--- daily_short_form_hours >  6.400000
+|   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |--- swipes_per_minute >  6.350000
+|   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |--- multitasking_score >  4.750000
+|   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |--- daily_short_form_hours >  6.650000
+|   |   |   |   |--- daily_short_form_hours <= 8.950000
+|   |   |   |   |   |--- bedtime_scroll_min <= 93.500000
+|   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |--- bedtime_scroll_min >  93.500000
+|   |   |   |   |   |   |--- swipes_per_minute <= 3.150000
+|   |   |   |   |   |   |   |--- bedtime_scroll_min <= 139.000000
+|   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 20.700000
+|   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  20.700000
+|   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 19.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  19.500000
+|   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |--- bedtime_scroll_min >  139.000000
+|   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |--- swipes_per_minute >  3.150000
+|   |   |   |   |   |   |   |--- total_sleep_hours <= 3.750000
+|   |   |   |   |   |   |   |   |--- class: Acute Brain Rot / Executive Burnout
+|   |   |   |   |   |   |   |--- total_sleep_hours >  3.750000
+|   |   |   |   |   |   |   |   |--- swipes_per_minute <= 10.000000
+|   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 7.050000
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec <= 12.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 11.650000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  11.650000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 36.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |--- age >  36.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |--- avg_clip_duration_sec >  12.500000
+|   |   |   |   |   |   |   |   |   |   |   |--- age <= 37.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Instagram Reels <= 0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |--- primary_platform_Instagram Reels >  0.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 20.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 121.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  121.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  20.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- age >  37.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- age <= 47.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Mild Attentional Strain
+|   |   |   |   |   |   |   |   |   |   |   |   |--- age >  47.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  7.050000
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 9.800000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 12.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  12.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min <= 148.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Acute Brain Rot / Executive Burnout
+|   |   |   |   |   |   |   |   |   |   |   |   |--- bedtime_scroll_min >  148.500000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score <= 8.400000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  8.400000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 4.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Acute Brain Rot / Executive Burnout
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  4.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |--- multitasking_score >  9.800000
+|   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 8.300000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  8.300000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Acute Brain Rot / Executive Burnout
+|   |   |   |   |   |   |   |   |--- swipes_per_minute >  10.000000
+|   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 7.250000
+|   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  7.250000
+|   |   |   |   |   |   |   |   |   |   |--- class: Acute Brain Rot / Executive Burnout
+|   |   |   |   |--- daily_short_form_hours >  8.950000
+|   |   |   |   |   |--- avg_clip_duration_sec <= 9.650000
+|   |   |   |   |   |   |--- multitasking_score <= 6.500000
+|   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |--- multitasking_score >  6.500000
+|   |   |   |   |   |   |   |--- scroll_sessions_day <= 23.500000
+|   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |--- scroll_sessions_day >  23.500000
+|   |   |   |   |   |   |   |   |--- multitasking_score <= 8.150000
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 5.600000
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 4.250000
+|   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours <= 9.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |--- daily_short_form_hours >  9.950000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Acute Brain Rot / Executive Burnout
+|   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  4.250000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Acute Brain Rot / Executive Burnout
+|   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  5.600000
+|   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |--- multitasking_score >  8.150000
+|   |   |   |   |   |   |   |   |   |--- class: Acute Brain Rot / Executive Burnout
+|   |   |   |   |   |--- avg_clip_duration_sec >  9.650000
+|   |   |   |   |   |   |--- daily_short_form_hours <= 10.150000
+|   |   |   |   |   |   |   |--- total_screen_time_hours <= 11.650000
+|   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 11.550000
+|   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |--- total_screen_time_hours >  11.550000
+|   |   |   |   |   |   |   |   |   |--- class: Acute Brain Rot / Executive Burnout
+|   |   |   |   |   |   |   |--- total_screen_time_hours >  11.650000
+|   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |--- daily_short_form_hours >  10.150000
+|   |   |   |   |   |   |   |--- age <= 42.500000
+|   |   |   |   |   |   |   |   |--- total_sleep_hours <= 4.650000
+|   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |--- total_sleep_hours >  4.650000
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 13.300000
+|   |   |   |   |   |   |   |   |   |   |--- class: Acute Brain Rot / Executive Burnout
+|   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  13.300000
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day <= 27.000000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Acute Brain Rot / Executive Burnout
+|   |   |   |   |   |   |   |   |   |   |--- scroll_sessions_day >  27.000000
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours <= 4.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: Acute Brain Rot / Executive Burnout
+|   |   |   |   |   |   |   |   |   |   |   |--- total_sleep_hours >  4.850000
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours <= 15.200000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |   |   |   |   |--- total_screen_time_hours >  15.200000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: Acute Brain Rot / Executive Burnout
+|   |   |   |   |   |   |   |--- age >  42.500000
+|   |   |   |   |   |   |   |   |--- total_sleep_hours <= 4.000000
+|   |   |   |   |   |   |   |   |   |--- class: Severe Focus Fragmentation
+|   |   |   |   |   |   |   |   |--- total_sleep_hours >  4.000000
+|   |   |   |   |   |   |   |   |   |--- class: Acute Brain Rot / Executive Burnout

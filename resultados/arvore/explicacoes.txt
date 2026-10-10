@@ -1,0 +1,94 @@
+INTERPRETAÇÃO DA ÁRVORE DE DECISÃO
+Profundidade completa: 21
+Número de folhas: 791
+
+Importância global (redução de impureza no treino):
+daily_short_form_hours     0.489449
+swipes_per_minute          0.197716
+avg_clip_duration_sec      0.085212
+multitasking_score         0.057356
+bedtime_scroll_min         0.038769
+total_sleep_hours          0.033260
+age                        0.032581
+total_screen_time_hours    0.024691
+scroll_sessions_day        0.020386
+primary_platform           0.010517
+gender                     0.010065
+
+Importância não indica causa nem direção do efeito. Pode favorecer variáveis
+com muitos pontos de corte. As importâncias de cada categoria foram somadas.
+primeiros_niveis.png mostra só os primeiros níveis; arvore_completa.svg
+mostra todos os nós. Os caminhos abaixo também são completos.
+Nas condições, colunas categóricas são indicadores: 1 = presente; 0 = ausente.
+Probabilidades de 100% em uma folha não garantem acerto em novos registros.
+Os exemplos são o primeiro acerto e o primeiro erro na ordem do teste,
+selecionados para ilustração; não representam todos os casos.
+
+--- EXEMPLO CORRETO ---
+Registro de índice 6076 no CSV carregado
+Classe real: Normal / Intact Focus
+Classe prevista: Normal / Intact Focus
+
+Características originais:
+age                            23
+gender                       Male
+primary_platform           TikTok
+daily_short_form_hours        0.6
+avg_clip_duration_sec        11.4
+swipes_per_minute             5.3
+scroll_sessions_day             1
+bedtime_scroll_min             15
+total_sleep_hours             7.5
+multitasking_score            1.2
+total_screen_time_hours       4.8
+
+Condições percorridas (da raiz até a folha):
+Nó 0: numericas__daily_short_form_hours = 0.6 <= 2.55
+Nó 1: numericas__swipes_per_minute = 5.3 <= 8.9
+Nó 2: numericas__daily_short_form_hours = 0.6 <= 2.05
+Nó 3: numericas__multitasking_score = 1.2 <= 3.75
+Nó 4: numericas__daily_short_form_hours = 0.6 <= 1.85
+Nó 5: numericas__bedtime_scroll_min = 15 <= 34.5
+Nó 6: numericas__total_screen_time_hours = 4.8 <= 6.55
+Nó 7: numericas__swipes_per_minute = 5.3 <= 7.55
+Folha 8: 1099 registros de treino.
+Probabilidades estimadas pela proporção de classes na folha:
+  Acute Brain Rot / Executive Burnout: 0.00%
+  Mild Attentional Strain: 0.00%
+  Normal / Intact Focus: 100.00%
+  Severe Focus Fragmentation: 0.00%
+
+--- EXEMPLO INCORRETO ---
+Registro de índice 5369 no CSV carregado
+Classe real: Normal / Intact Focus
+Classe prevista: Mild Attentional Strain
+
+Características originais:
+age                                     20
+gender                              Female
+primary_platform           Instagram Reels
+daily_short_form_hours                 1.5
+avg_clip_duration_sec                  6.6
+swipes_per_minute                      9.1
+scroll_sessions_day                      3
+bedtime_scroll_min                      17
+total_sleep_hours                      8.2
+multitasking_score                     2.9
+total_screen_time_hours                6.4
+
+Condições percorridas (da raiz até a folha):
+Nó 0: numericas__daily_short_form_hours = 1.5 <= 2.55
+Nó 1: numericas__swipes_per_minute = 9.1 > 8.9
+Nó 361: numericas__daily_short_form_hours = 1.5 > 1.45
+Nó 419: numericas__avg_clip_duration_sec = 6.6 > 5.75
+Nó 469: numericas__daily_short_form_hours = 1.5 <= 1.95
+Nó 470: numericas__age = 20 <= 26.5
+Nó 471: numericas__age = 20 <= 22.5
+Nó 472: numericas__bedtime_scroll_min = 17 <= 28.5
+Nó 473: numericas__multitasking_score = 2.9 > 1.4
+Folha 475: 4 registros de treino.
+Probabilidades estimadas pela proporção de classes na folha:
+  Acute Brain Rot / Executive Burnout: 0.00%
+  Mild Attentional Strain: 100.00%
+  Normal / Intact Focus: 0.00%
+  Severe Focus Fragmentation: 0.00%
