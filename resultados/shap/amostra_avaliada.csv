@@ -1,0 +1,19 @@
+indice_csv,classe_real,age,gender,primary_platform,daily_short_form_hours,avg_clip_duration_sec,swipes_per_minute,scroll_sessions_day,bedtime_scroll_min,total_sleep_hours,multitasking_score,total_screen_time_hours,previsao_KNN,previsao_Naive_Bayes,previsao_Arvore_de_Decisao
+543,Normal / Intact Focus,32,Male,Instagram Reels,1.2,16.3,3.7,3,27,6.9,1.4,4.0,Normal / Intact Focus,Normal / Intact Focus,Normal / Intact Focus
+1098,Severe Focus Fragmentation,36,Male,TikTok,6.6,4.1,14.6,16,129,5.6,6.7,9.6,Severe Focus Fragmentation,Severe Focus Fragmentation,Severe Focus Fragmentation
+2121,Mild Attentional Strain,27,Male,Snapchat Spotlight,1.6,3.0,20.0,6,44,7.9,1.9,5.6,Mild Attentional Strain,Mild Attentional Strain,Mild Attentional Strain
+2175,Mild Attentional Strain,39,Female,TikTok,3.5,9.3,6.5,10,70,7.1,2.7,8.5,Mild Attentional Strain,Mild Attentional Strain,Mild Attentional Strain
+2312,Acute Brain Rot / Executive Burnout,27,Male,TikTok,9.9,3.0,20.0,28,180,4.8,9.3,13.0,Acute Brain Rot / Executive Burnout,Acute Brain Rot / Executive Burnout,Acute Brain Rot / Executive Burnout
+2360,Acute Brain Rot / Executive Burnout,16,Female,Snapchat Spotlight,7.8,5.3,11.3,23,143,5.6,7.0,12.0,Acute Brain Rot / Executive Burnout,Acute Brain Rot / Executive Burnout,Acute Brain Rot / Executive Burnout
+3970,Severe Focus Fragmentation,51,Female,TikTok,3.5,3.0,20.0,10,73,7.5,1.2,7.8,Severe Focus Fragmentation,Severe Focus Fragmentation,Severe Focus Fragmentation
+4534,Normal / Intact Focus,28,Male,Instagram Reels,1.1,14.8,4.1,5,22,7.0,1.7,3.9,Normal / Intact Focus,Normal / Intact Focus,Normal / Intact Focus
+5039,Acute Brain Rot / Executive Burnout,45,Male,YouTube Shorts,10.5,13.4,4.5,28,180,3.6,9.2,14.7,Severe Focus Fragmentation,Acute Brain Rot / Executive Burnout,Severe Focus Fragmentation
+6076,Normal / Intact Focus,23,Male,TikTok,0.6,11.4,5.3,1,15,7.5,1.2,4.8,Normal / Intact Focus,Normal / Intact Focus,Normal / Intact Focus
+6313,Severe Focus Fragmentation,22,Male,TikTok,4.6,9.7,6.2,11,99,6.9,5.7,8.0,Mild Attentional Strain,Mild Attentional Strain,Mild Attentional Strain
+6811,Severe Focus Fragmentation,17,Male,Instagram Reels,4.5,5.9,10.2,14,94,7.8,4.6,7.6,Severe Focus Fragmentation,Mild Attentional Strain,Severe Focus Fragmentation
+7097,Normal / Intact Focus,17,Male,YouTube Shorts,3.0,18.7,3.2,11,58,7.7,3.4,6.7,Normal / Intact Focus,Mild Attentional Strain,Mild Attentional Strain
+7234,Mild Attentional Strain,23,Female,Snapchat Spotlight,5.7,11.2,5.4,13,123,5.8,5.1,8.6,Mild Attentional Strain,Severe Focus Fragmentation,Mild Attentional Strain
+7249,Mild Attentional Strain,38,Male,TikTok,2.6,5.9,10.2,12,31,7.5,2.0,5.4,Mild Attentional Strain,Mild Attentional Strain,Mild Attentional Strain
+7559,Severe Focus Fragmentation,38,Female,Instagram Reels,6.7,14.6,4.1,19,121,4.8,5.3,9.8,Severe Focus Fragmentation,Severe Focus Fragmentation,Mild Attentional Strain
+7766,Normal / Intact Focus,22,Female,TikTok,2.0,17.1,3.5,7,31,8.6,3.4,4.6,Normal / Intact Focus,Normal / Intact Focus,Normal / Intact Focus
+8000,Acute Brain Rot / Executive Burnout,34,Female,TikTok,9.8,12.3,4.9,28,180,6.0,7.7,12.8,Severe Focus Fragmentation,Acute Brain Rot / Executive Burnout,Severe Focus Fragmentation

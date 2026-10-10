@@ -8,7 +8,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, f1_score
-from interpretabilidade import interpretar_arvore
+from interpretabilidade import interpretar_modelos
 
 dataset = Path(__file__).parent / "dataset.csv"
 
@@ -124,4 +124,9 @@ if __name__ == "__main__":
     print("\nComparação no conjunto de teste:")
     print(pd.DataFrame(resultados).set_index("Modelo").round(4))
 
-    interpretar_arvore(arvore, X_test, y_test)
+    interpretar_modelos(
+        {"KNN": knn, "Naive_Bayes": naive_bayes, "Arvore_de_Decisao": arvore},
+        X_train,
+        X_test,
+        y_test,
+    )

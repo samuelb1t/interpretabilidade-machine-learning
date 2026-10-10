@@ -1,0 +1,150 @@
+INTERPRETABILIDADE COM SHAP
+Método: SHAP por permutação aplicado a predict_proba de cada pipeline.
+Referência: 40 registros sorteados somente do treino (seed 42).
+Amostra de teste: 18 registros; 4 por classe mais os dois casos comparados.
+Orçamento de avaliações SHAP por registro: 45 (2 permutações completas).
+Categorias são códigos temporários no SHAP e são decodificadas antes
+da previsão. O pré-processamento de cada pipeline permanece o mesmo.
+Valores SHAP e importâncias estão na escala de probabilidade.
+Importância global = média do valor SHAP absoluto sobre os registros
+amostrados e as quatro classes. A amostra é pequena e equilibrada:
+serve à interpretação exploratória, não representa a frequência real das classes.
+SHAP explica previsões do modelo em relação à referência; não demonstra causalidade.
+
+--- KNN ---
+Importâncias globais:
+daily_short_form_hours     0.085556
+swipes_per_minute          0.082847
+bedtime_scroll_min         0.054583
+total_screen_time_hours    0.049306
+multitasking_score         0.048472
+scroll_sessions_day        0.046389
+avg_clip_duration_sec      0.046389
+total_sleep_hours          0.020556
+age                        0.016458
+gender                     0.016181
+primary_platform           0.016181
+
+acerto_dos_tres: índice 6076; classe real: Normal / Intact Focus
+Classe prevista: Normal / Intact Focus; probabilidade: 100.00%
+Referência: 43.50%; soma SHAP: +56.50%
+Contribuições à probabilidade da classe prevista:
+daily_short_form_hours     2.000000e-01
+bedtime_scroll_min         1.100000e-01
+multitasking_score         9.000000e-02
+scroll_sessions_day        7.750000e-02
+total_screen_time_hours    4.250000e-02
+swipes_per_minute          2.000000e-02
+gender                     2.000000e-02
+total_sleep_hours          2.000000e-02
+primary_platform          -1.250000e-02
+avg_clip_duration_sec     -2.500000e-03
+age                        5.551115e-17
+
+erro_em_algum_modelo: índice 6811; classe real: Severe Focus Fragmentation
+Classe prevista: Severe Focus Fragmentation; probabilidade: 60.00%
+Referência: 13.00%; soma SHAP: +47.00%
+Contribuições à probabilidade da classe prevista:
+avg_clip_duration_sec      0.1725
+multitasking_score         0.1425
+swipes_per_minute          0.0650
+scroll_sessions_day        0.0600
+gender                     0.0300
+total_screen_time_hours    0.0250
+total_sleep_hours         -0.0200
+primary_platform          -0.0150
+age                        0.0100
+bedtime_scroll_min         0.0100
+daily_short_form_hours    -0.0100
+
+--- Naive_Bayes ---
+Importâncias globais:
+scroll_sessions_day        0.080721
+total_screen_time_hours    0.076310
+bedtime_scroll_min         0.070602
+daily_short_form_hours     0.068949
+multitasking_score         0.044451
+swipes_per_minute          0.042368
+primary_platform           0.032532
+total_sleep_hours          0.030495
+avg_clip_duration_sec      0.016708
+gender                     0.003250
+age                        0.001182
+
+acerto_dos_tres: índice 6076; classe real: Normal / Intact Focus
+Classe prevista: Normal / Intact Focus; probabilidade: 100.00%
+Referência: 43.11%; soma SHAP: +56.88%
+Contribuições à probabilidade da classe prevista:
+daily_short_form_hours     0.145049
+total_screen_time_hours    0.128739
+bedtime_scroll_min         0.115226
+scroll_sessions_day        0.086928
+swipes_per_minute          0.039706
+multitasking_score         0.030682
+avg_clip_duration_sec      0.008846
+total_sleep_hours          0.008126
+primary_platform           0.005558
+age                       -0.001059
+gender                     0.001029
+
+erro_em_algum_modelo: índice 6811; classe real: Severe Focus Fragmentation
+Classe prevista: Mild Attentional Strain; probabilidade: 91.25%
+Referência: 42.13%; soma SHAP: +49.12%
+Contribuições à probabilidade da classe prevista:
+daily_short_form_hours     0.123594
+total_screen_time_hours    0.101982
+bedtime_scroll_min         0.079949
+multitasking_score         0.061170
+scroll_sessions_day        0.059652
+swipes_per_minute          0.029266
+total_sleep_hours          0.027136
+primary_platform           0.015950
+avg_clip_duration_sec     -0.004746
+gender                    -0.002792
+age                        0.000010
+
+--- Arvore_de_Decisao ---
+Importâncias globais:
+daily_short_form_hours     0.203125
+avg_clip_duration_sec      0.090278
+swipes_per_minute          0.061458
+multitasking_score         0.057639
+bedtime_scroll_min         0.050694
+total_sleep_hours          0.031250
+age                        0.025694
+total_screen_time_hours    0.010069
+scroll_sessions_day        0.009375
+primary_platform           0.006250
+gender                     0.001736
+
+acerto_dos_tres: índice 6076; classe real: Normal / Intact Focus
+Classe prevista: Normal / Intact Focus; probabilidade: 100.00%
+Referência: 42.50%; soma SHAP: +57.50%
+Contribuições à probabilidade da classe prevista:
+daily_short_form_hours     0.5250
+multitasking_score         0.1125
+avg_clip_duration_sec     -0.0500
+primary_platform          -0.0250
+total_screen_time_hours    0.0250
+swipes_per_minute          0.0125
+bedtime_scroll_min        -0.0125
+age                       -0.0125
+gender                     0.0000
+scroll_sessions_day        0.0000
+total_sleep_hours          0.0000
+
+erro_em_algum_modelo: índice 6811; classe real: Severe Focus Fragmentation
+Classe prevista: Severe Focus Fragmentation; probabilidade: 100.00%
+Referência: 17.50%; soma SHAP: +82.50%
+Contribuições à probabilidade da classe prevista:
+daily_short_form_hours     3.375000e-01
+swipes_per_minute          2.500000e-01
+avg_clip_duration_sec      1.875000e-01
+multitasking_score         5.000000e-02
+primary_platform           1.250000e-02
+total_sleep_hours         -1.250000e-02
+bedtime_scroll_min         1.387779e-17
+age                        0.000000e+00
+gender                     0.000000e+00
+scroll_sessions_day        0.000000e+00
+total_screen_time_hours    0.000000e+00
