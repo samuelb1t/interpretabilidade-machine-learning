@@ -45,6 +45,7 @@ def preparar_dados():
     return X, y
 
 def criar_preprocessamento(padronizar=False):
+    # Padroniza/Normaliza os dados
     return ColumnTransformer(
         transformers=[
             ("numericas", StandardScaler() if padronizar else "passthrough", numericas),
@@ -77,7 +78,7 @@ def treinar_arvore_decisao(X_train, y_train):
     return modelo
 
 def avaliar_modelo(nome, modelo, X_test, y_test):
-    # predict aplica o pré-processamento já ajustado no treino, sem reajustá-lo.
+    # predict aplica o pré-processamento já ajustado no treino
     previsoes = modelo.predict(X_test)
     classes = modelo.classes_
 
